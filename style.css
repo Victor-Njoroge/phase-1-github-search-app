@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+body{
+    background: #160f40;
+}
+section{
+    padding: 2rem 9%;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 9%;
+    background:#0f1740;
+    margin-bottom: 1px solid #0f174038;
+    cursor: pointer;
+}
+.header .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #fff;
+}
+.header .search-form{
+    width: 40rem;
+    height: 5rem;
+    background: #fff;
+    border-radius: .5rem;
+    overflow: hidden;
+    display: flex;
+ }
+ .header .search-form .btn{
+    margin-top: 0rem;
+    margin-left: 7rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    background: #0f1740;
+    border: .2rem solid #0f1740;
+    color: #fff;
+    cursor: pointer;
+ }
+ .name{
+    margin-left: 3.5rem;
+    margin-top: -3.5rem;
+ }
+ .header .avatar img{
+    width: 5rem;
+    border-radius: 50%;
+ }
+
+
+ .home .box-container{
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1.5rem;
+}
+
+.home .box-container .box{
+    padding: 3rem 2rem;
+  
+    outline-offset: -1rem;
+    text-align: center;
+}
+.home .box-container .box img{
+    width: 30rem;
+    border-radius: 50%;
+}
+.home .box-container .box h1{
+    color: #fff;
+    margin-top: 1rem;
+}
+.home .box-container .box p{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    color: rgba(128, 128, 128, 0.709);
+}
+.home .box-container .box p i{
+    color: #fff;
+    font-size: 1.3rem;
+}
+.home .box-container .box p span{
+    color: #fff;
+    font-size: 1.3rem;
+}
+.btn2{
+    margin-top: 3rem;
+    margin-left: 0rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    font-size: 1.3rem;
+    width: 20rem;
+    background: rgba(128, 128, 128, 0.195);
+    border: .2rem solid rgba(128, 128, 128, 0.226);
+    color: #fff;
+    cursor: pointer;
+}
